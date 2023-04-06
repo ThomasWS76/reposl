@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 from streamlit_chat import message
 
-openai.api_key = '{Your API key}'
+openai.api_key = '{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}'
 if 'prompts' not in st.session_state:
     st.session_state['prompts'] = [{"role": "system", "content": "You are a helpful assistant. Answer as concisely as possible with a little humor expression."}]
 if 'generated' not in st.session_state:

@@ -53,4 +53,4 @@ if st.session_state['generated']:
             st.markdown(st.session_state['generated'][i])
         message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
         
-python -m streamlit run code.py
+streamlit run code.py

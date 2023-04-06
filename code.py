@@ -52,5 +52,4 @@ if st.session_state['generated']:
         with tab2:
             st.markdown(st.session_state['generated'][i])
         message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
-        
-streamlit run code.py
+       
